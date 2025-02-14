@@ -1,0 +1,321 @@
+    * {
+    cursor: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.custom-cursor { 
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    background-color: #a57ae5;
+    border-radius: 50%;
+    pointer-events: none; /* Pour éviter que le curseur interagisse avec les éléments */
+    animation: bounce 1s ease-in-out infinite; /* Animation de rebond */
+    z-index: 9999;
+  }
+
+
+/* Animation de rebond */
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+      background-color:#0800ff  ;
+    }
+    25% {
+      transform: scale(1.1);
+      background-color:  #0800ff ;
+    }
+    50% {
+      transform: scale(1);
+      background-color: #ffffff;
+    }
+    75% {
+      transform: scale(0.9);
+      background-color: #ff0000 ;
+    }
+    100% {
+      transform: scale(1);
+      background-color: #ff0000;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+ 
+    width: 100%;
+    height: 200px;
+  
+    
+}
+
+body {
+    background-color: rgb(220, 218, 218);
+}
+
+.main {
+  
+    width: 80%;
+    height: 58h;
+    background-color: gray;
+   
+    display: flex;
+}
+
+
+
+.menu {
+    background-color: rgb(252, 200, 131);
+    height: 58vh;
+    width: 20%;
+    padding-top: 40px;
+    display: flex;
+}
+
+.main-menu {
+    display: flex;
+}
+
+
+
+
+
+/*------------  BOUTON CENTRALE  --------------------------*/
+.b0 {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.b1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 22px;
+}
+
+.b2 {
+ font-size: 33px;
+}
+
+
+.b3 {
+   color : orange;
+}
+
+.b4 {
+   font-size: 44px;
+
+}
+.b5 {
+    text-decoration: underline;
+}
+
+.b6{
+  color :#3A38E8;
+}
+.b7 {
+  background-color: aqua;
+}
+.b8 {
+   border-radius: 30px;
+}
+.b9 {
+    font-size: 88px;
+}
+.b10{
+transition: all 0.3 ease;
+font-size: 123px;
+height: 55%;
+}
+
+
+
+/*------------  BOUTON UP  --------------------------*/
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+   
+    gap : 25px; /* ESPACE ENTRE BRIQUE*/
+}
+
+
+.nom {
+    color  : black;
+    text-align: center;
+    font-style: bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.production {
+    color : black;
+    text-align: center;
+}
+
+.container-up {
+    display: flex;
+    width: 100%;
+}
+
+
+.buy-up {
+    color : black;
+    background-color: antiquewhite;
+    width: 100%; 
+      
+}
+
+#up1 {
+    width: 100%;
+}
+
+#up2 {
+    width: 100%;
+}
+#up3 {
+    width: 100%;
+}
+
+.buy-up1-n {
+    background-color: red;
+    height: 55%;
+}
+
+.buy-up1-o {
+    background-color: greenyellow;
+    height: 35%;
+}
+
+.buy-up2-n {
+    background-color:red;
+    height: 35%;
+}
+
+.buy-up2-o {
+    background-color: greenyellow;
+    height: 35%;
+}
+
+.titre1 {
+    font-size: 50px;
+    text-align : center;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+.buy-up3-n {
+    background-color: red;
+    height: 35%;
+}
+
+
+.buy-up3-o {
+
+    background-color: greenyellow;
+    height: 35%;
+}
+
+
+/*-------  UP - BOUTON 2  -----------*/
+
+
+
+
+.h2 {
+   text-align: center;
+   background-color: red;
+   border: 2px solid black;
+   box-sizing: border-box;
+   width: 50%;
+   height: 50%;
+   
+}
+
+.txtHeader { /*PAS SUPRIMER*/
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+.hh { /*PAS SUPRIMER*/
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+.ha {/*PAS SUPRIMER*/
+    height: 100%;
+
+}
+
+.hb {/*PAS SUPRIMER*/
+    height: 100%;
+    width: 100%;
+    margin-right: -10px;
+    margin-top: -2px;
+    margin-bottom: -0px;
+  
+}
+.hjjj {
+    background-color: #CA3C66;
+    border: 2px solid black;
+    box-sizing: border-box;
+    height: 65%;
+}
+
+.head1 {/*PAS SUPRIMER*/
+    width: 150%;
+   
+}
+.hj {
+    background-color: #E8AABE;
+    border-radius: 15px 0px 0px 0px;
+    width: 100%;
+}
+.head2 {/*PAS SUPRIMER*/
+    height: 100%;
+   
+}
+.hjj {
+    background-color: #DB6A8F;
+   
+}
+.hjjjjj {
+    border-radius: 0px 15px 0px 0px;
+}
+
+.headContainer1 {/*PAS SUPRIMER*/
+    display: flex;
+    
+    width: 100%;
+    height: 60%;
+}
+
+.hjjjj {
+    border-radius: 15px 0px 0px 0px;
+}
+.h3 {
+    
+    border-radius: 0px 0px 0px 15px;
+    background : linear-gradient(225deg, #ff7e5f, #feb47b);
+}
+
+.h4 {
+    border-radius: 0px 0px 15px 0px;
+    background : linear-gradient(100deg, #ff7e5f, #feb47b);
+}
+
